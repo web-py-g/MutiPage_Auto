@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Автосервис</title>
+</head> 
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="header_content">
+				<div class="header_logo">
+					<img src="img/logo.png" alt="">
+					<h3>РЕМОНТ АВТО</h3>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="">О компании</a></li>
+						<li><a href="">Услуги</a></li>
+						<li><a href="">Цены</a></li>
+						<li><a href="">Работы</a></li>
+						<li><a href="">Статьи</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header_geo">
+					<h2>пр. Ю. Гагарина д. 1</h2>
+					<h3>8-921-998-18-88</h3>
+				</div>
+			</div> 
+		</div>
+	</header>
+	<section class="welcome">
+		<div class="blur"></div>
+		<div class="wrapper">
+			<div class="welcome_content">
+				<h1>СДЕЛАЕМ КУЗОВНОЙ РЕМОНТ ВАШЕГО АВТОМОБИЛЯ ОТ 1 ДНЯ!</h1>
+				<h2>Оставьте заявку и получите бесплатную консультацию</h2>
+				<form action="">
+					<input type="text" placeholder="Ваше имя">
+					<input type="text" placeholder="Ваш номер телефона">
+					<input type="submit" value="Отправить">
+					<br>
+					<input id="check1" type="checkbox" required>
+					<label for="check1">Я даю согласие на обработку моих персональных данных.</label>
+				</form>
+			</div>
+		</div>
+		<div class="arrows">
+			<span class="arrow">&#9660;</span>
+			<span class="arrow">&#9660;</span>
+		</div>
+	</section>
+	<section class="category">
+		<div class="wrapper">
+			<div class="category_item"><div class="category_item__img"><a href=""><img src="img/color.png" alt=""></a></div>
+				<h3>Покраска кузова</h3>
+			</div>
+			<div class="category_item"><div class="category_item__img"><a href=""><img src="img/hammer.png" alt=""></a></div>
+				<h3>Ремонт кузова</h3>
+			</div>
+			<div class="category_item"><div class="category_item__img"><a href=""><img src="img/star.png" alt=""></a></div>
+				<h3>Полировка авто</h3>
+			</div>
+			<div class="category_item"><div class="category_item__img"><a href=""><img src="img/star.png" alt=""></a></div>
+				<h3>Ремонт вмятин</h3>
+			</div>
+			<div class="category_item"><div class="category_item__img"><a href=""><img src="img/hammer.png" alt=""></a></div>
+				<h3>Ремонт царапин</h3>
+			</div>
+			<div class="category_item"><div class="category_item__img"><a href=""><img src="img/color.png" alt=""></a></div>
+				<h3>Локальная покраска</h3>
+			</div>
+		</div>
+	</section>
+	<section class="cars">
+		<div class="wrapper">
+				<div class="cars_item"><a href=""><img src="img/acura.png" alt=""><h3>ACURA</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/alfa-romeo.png" alt=""><h3>ALFA-ROMEO</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/bentley.png" alt=""><h3>BENTLEY</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/bmw.png" alt=""><h3>BMW</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/cadillac.png" alt=""><h3>CADILLAC</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/chery.png" alt=""><h3>CHERRY</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/chevrolet.png" alt=""><h3>CHEVROLET</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/chrysler.png" alt=""><h3>CHRYSLER</h3></a></div>
+				<div class="cars_item"><a href=""><img src="img/citroen.png" alt=""><h3>CITROEN</h3></a></div>
+		</div>
+	</section>
+
+	<section class="profi">
+		<div class="wrapper">
+			<h2>К ВОССТАНОВЛЕНИЮ АВТОМОБИЛЯ ПРИВЛЕКАЕТСЯ КОМАНДА ЭКСПЕРТОВ</h2>
+			<div class="profi_content">
+				<div class="profi_item">
+					<h3>Слесари, жестянщики</h3>
+					<p>Восстанавливают геометрию формы авто, выправляют вмятины, производят рихтовку, сварку, шпатлевание и зачистку поверхностей для получения единой плоскости.</p>
+				</div>
+				<div class="profi_item">
+					<h3>Колористы</h3>
+					<p>Подбирают цвета покрытия авто по VIN-коду автомобиля или с помощью компьютерного подбора автоэмали.</p>
+				</div>
+				<div class="profi_item">
+					<h3>Автомаляры</h3>
+					<p>Зачистка, грунтовка, обезжиривание. <br>Профессиональная окраска автомобиля.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="price">
+		<div class="wrapper">
+			<h2>ЦЕНЫ НА КУЗОВНЫЕ РАБОТЫ</h2>
+			<div class="price_content">
+				<div class="pricecontent__item">
+						<input id="command__toggle" type="checkbox">
+						<label for="command__toggle" class="command_toggle">
+							Бампер передний
+						</label>
+						<ul class="pricecontent__item_main">
+							<li>Снятие/установка детали от 700 руб.</li>
+							<li>Замена детали от 3800 руб.</li>
+							<li>Покраска новой детали (с материалом) от 4000 руб.</li>
+							<li>Покраска детали до 30% повреждения (с материалом) от 4300 руб.</li>
+							<li>Покраска детали до 50% повреждения (с материалом)</li>
+						</ul>
+				</div>
+				<div class="pricecontent__item">
+						<input id="command__toggle1" type="checkbox">
+						<label for="command__toggle1" class="command_toggle">
+							Бампер Задний
+						</label>
+						<ul class="pricecontent__item_main">
+							<li>Снятие/установка детали от 400 руб.</li>
+							<li>Замена детали от 500 руб.</li>
+							<li>Покраска новой детали (с материалом) от 3800 руб.</li>
+							<li>Покраска детали до 30% повреждения (с материалом) от 4000 руб.</li>
+							<li>Покраска детали до 50% повреждения (с материалом) от 4300 руб</li>
+						</ul>
+				</div>
+				<div class="pricecontent__item">
+						<input id="command__toggle2" type="checkbox">
+						<label for="command__toggle2" class="command_toggle">
+							Дверь боковая задняя
+						</label>
+						<ul class="pricecontent__item_main">
+							<li>Снятие/установка детали от 600 руб.</li>
+							<li>Замена детали от 1400 руб.</li>
+							<li>Покраска новой детали (с материалом) от 4100 руб.</li>
+							<li>Покраска детали до 30% повреждения (с материалом) от 4200 руб.</li>
+							<li>Покраска детали до 50% повреждения (с материалом) от 4300 руб.</li>
+						</ul>
+				</div>
+				<div class="pricecontent__item">
+						<input id="command__toggle4" type="checkbox">
+						<label for="command__toggle4" class="command_toggle">
+							Дверь боковая Передняя
+						</label>
+						<ul class="pricecontent__item_main">
+							<li>Снятие/установка детали от 600 руб.</li>
+							<li>Замена детали от 1400 руб.</li>
+							<li>Покраска новой детали (с материалом) от 4100 руб.</li>
+							<li>Покраска детали до 30% повреждения (с материалом) от 4200 руб.</li>
+							<li>Покраска детали до 50% повреждения (с материалом) от 4300 руб.</li>
+						</ul>
+				</div>
+				<div class="dop">
+					<input id="command__toggle_dop" type="checkbox">
+					<label for="command__toggle_dop" class="command_toggle command__toggle_dop">
+						Посмотреть весь прайс
+					</label>
+					<div class="dop_content">
+						<div class="pricecontent__item">
+							<input id="command__toggle5" type="checkbox">
+							<label for="command__toggle5" class="command_toggle">
+								Капот
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 500 руб.</li>
+								<li>Покраска новой детали (с материалом) от 5400 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 5200 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 5500 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle6" type="checkbox">
+							<label for="command__toggle6" class="command_toggle">
+								Крыло заднее
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 750 руб.</li>
+								<li>Покраска новой детали (с материалом) от 4100 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 4200 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 4300 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle7" type="checkbox">
+							<label for="command__toggle7" class="command_toggle">
+								Дверь багажника
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 600 руб.</li>
+								<li>Замена детали от 1700 руб.</li>
+								<li>Покраска новой детали (с материалом) от 3400 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 3500 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 3650 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle8" type="checkbox">
+							<label for="command__toggle8" class="command_toggle">
+								Крышка багажника
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 450 руб.</li>
+								<li>Замена детали от 950 руб.</li>
+								<li>Покраска новой детали (с материалом) от 3400 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 3500 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 3650 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle9" type="checkbox">
+							<label for="command__toggle9" class="command_toggle">
+								Крыша
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 950 руб.</li>
+								<li>Покраска новой детали (с материалом) от 5500 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 5800 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 6100 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle10" type="checkbox">
+							<label for="command__toggle10" class="command_toggle">
+								Кузов
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Полировка от 6000 руб.</li>
+								<li>Разборка кузова от 7500 руб.</li>
+								<li>Покраска кузова от 35000 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle11" type="checkbox">
+							<label for="command__toggle11" class="command_toggle">
+								Лонжерон передний
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 750 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 4500 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 4800 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle12" type="checkbox">
+							<label for="command__toggle12" class="command_toggle">
+								Лонжерон задний
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 700 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 4000 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 4300 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle13" type="checkbox">
+							<label for="command__toggle13" class="command_toggle">
+								ПОРОГ
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 750 руб.</li>
+								<li>Покраска новой детали (с материалом) от 3400 руб.</li>
+								<li>Покраска детали до 30% повреждения (с материалом) от 3500 руб.</li>
+								<li>Покраска детали до 50% повреждения (с материалом) от 3600 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle14" type="checkbox">
+							<label for="command__toggle14" class="command_toggle">
+								РЕШЕТКА РАДИАТОРА
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 300 руб.</li>
+								<li>Покраска новой детали (с материалом) от 1250 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle15" type="checkbox">
+							<label for="command__toggle15" class="command_toggle">
+								БОКОВОЕ ЗЕРКАЛО
+							</label>
+							<ul class="pricecontent__item_main">
+								<li>Снятие/установка детали от 450 руб.</li>
+								<li>Покраска новой детали (с материалом) от 900 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle16" type="checkbox">
+							<label for="command__toggle16" class="command_toggle">
+								ПОЛНЫЙ РЕМОНТ КУЗОВА
+							</label>
+							<ul class="pricecontent__item_main">
+								<h4>Производится после тяжелых ДТП или других нарушениях геометрии кузова.</h4>
+								<h4>Этапы работ:</h4>
+								<li>Оценка;</li>
+								<li>Снятие и демонтаж составных частей;</li>
+								<li>Восстановление геометрии;</li>
+								<li>Подготовка к покраске;</li>
+								<li>Покраска;</li>
+								<li>Покраска в камере;</li>
+								<li>Сборка кузова;</li>
+								<h4>Стоимость данной работы оценивается индивидуально, в зависимости от процента повреждений и марки автомобиля.</h4>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle17" type="checkbox">
+							<label for="command__toggle17" class="command_toggle">
+								ЛОКАЛЬНЫЙ КУЗОВНОЙ РЕМОНТ
+							</label>
+							<ul class="pricecontent__item_main">
+								<p>
+									Производится точечно на отдельно взятом элементе кузова. <br>
+									Это могут быть: бампер, двери, багажник, крылья, крыша, капот.<br>
+									В особых случаях деталь полностью заменяется, в ситуациях проще - дефект выравнивается и закрашивается.<br>
+									В последнее время мы все больше переходим к устранению дефектов без покраски.<br>
+
+									Наиболее популярные услуги локального ремонта:
+								</p>
+								<li>Ремонт бамперов — цена от 800 руб.</li>
+								<li>Устранение мелких дефектов (царапин, сколов, вмятин) — цена от 500 руб.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle18" type="checkbox">
+							<label for="command__toggle18" class="command_toggle">
+								Покраска
+							</label>
+							<ul class="pricecontent__item_main">
+								<p>
+									В основном данная услуга идет в комплексе с кузовным ремонтом.<br>
+									Покраска осуществляется в специальной камере.<br>
+									Предварительно производится подбор краски.<br>
+									Непосредственно перед покраской поверхность проходит предварительную подготовку.<br>
+								</p>
+								<li>Покраска 1 единицы кузова — от 500 руб.</li>
+								<li>Полная покраска кузова — оценивается индивидуально.</li>
+							</ul>
+						</div>
+						<div class="pricecontent__item">
+							<input id="command__toggle19" type="checkbox">
+							<label for="command__toggle19" class="command_toggle">
+								Эвакуатор
+							</label>
+							<ul class="pricecontent__item_main">
+								<p>
+									Эвакуатор доставляет ваш автомобиль с места происшествия до нашего сервиса. <br>
+									Если вы остаетесь на кузовной ремонт - услуга для вас бесплатная.
+								</p>	
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="photo">
+		<div class="wrapper">
+			<h2>ОЦЕНКА СТОИМОСТИ РАБОТ ПО ФОТО</h2>
+			<h3>Сделайте фотографии повреждений Вашей машины и за 10 минут получите:</h3>
+			<ul>
+				<li>Точную цену восстановительного ремонта</li>
+				<li>Профессиональную консультацию специалиста</li>
+				<li>Дату завершения работ</li>
+			</ul>
+			<a href="https://wa.me/79119226661?text=Здравствуйте!%20Высылаю%20фото%20для%20диагностики%20повреждений%20моего%20автомобиля" target="_blank">Отправить фото</a>
+
+			<span id="s1">Быстрый ответ</span>
+			<span id="s2">Лучшие специалисты</span>
+			<span id="s3">Без лишних хлопот</span>
+
+		</div>
+	</section>
+	<section class="dang">
+		<div class="wrapper">
+			<h2>ОБРАТИТЬСЯ СЕЙЧАС В «ДЕЛЬТА-СЕРВИС»	<br> – ВЕРНОЕ РЕШЕНИЕ</h2>
+			<h3>Замедление в проведение ремонта может привести к ненужным последствиям:</h3>
+			<ul>
+				<li>Возрастает риск попадания в ДТП</li>
+				<li>Увеличится износ шин.</li>
+				<li>Растет потребление топлива</li>
+			</ul>
+		</div>
+	</section>
+	<section class="dang remType">
+		<div class="wrapper">
+			<h2>ВИДЫ РЕМОНТА ВАШЕГО АВТО</h2>
+			<h3>Транспортное средство может быть повреждено в разной степени. Случается, что можно устранить неисправность без удаления элемента и покраски. Ремонт может быть полным и локальным. Стоимость кузовного ремонта авто в СПб определяется в зависимости от вида ремонта.</h3>
+			<ul>
+				<li>Косметический(локальный, легкий, мелкий):   Входит устранение сколов, царапин, небольших вмятин. Ремонт обшивки потолка, торпеды. Сроки 1-2 дня.</li>
+				<li>Средний:   Выравнивание незначительных неровностей кузова, демонтаж, рихтовка, шпаклевка, покраска. Обычно 5-7 дней.</li>
+				<li>Капитальный:   Восстановление геометрии кузова. Жестяные, сварочные работы. Монтаж, окраска. Нужен при серьёзных ДТП и больших повреждениях транспортного средства. <span></span>Сроки ремонта от 14 дней.</li>
+			</ul>
+		</div>
+	</section>
+	<section class="services">
+		<div class="blur"></div>
+		<div class="wrapper">
+			<div class="services_content">
+				<h2>Наши услуги</h2>
+				<div class="services__item">
+					<img src="img/s1.png" alt="">
+					<h3>Ремонт электрики</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s2.png" alt="">
+					<h3>Рихтовка кузова</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s3.png" alt="">
+					<h3>Установка парктроников</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s4.png" alt="">
+					<h3>Ремонт лобовых ударов</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s5.png" alt="">
+					<h3>Развал-схождение</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s6.png" alt="">
+					<h3>Кузовной ремонт после ДТП</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s7.png" alt="">
+					<h3>Локальный ремонт</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s8.png" alt="">
+					<h3>Ремонт лонжерона</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s9.png" alt="">
+					<h3>Покраска капота</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s10.png" alt="">
+					<h3>Полная покраска</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s11.png" alt="">
+					<h3>Покраска крыши</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s12.png" alt="">
+					<h3>Ремонт салона</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s13.png" alt="">
+					<h3>Ремонт порогов</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s14.png" alt="">
+					<h3>Ремонт стекол</h3>
+					<a href="">Подробнее</a>
+				</div>
+				<div class="services__item">
+					<img src="img/s15.png" alt="">
+					<h3>Замена бампера</h3>
+					<a href="">Подробнее</a>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section class="remont">
+		<div class="wrapper">
+			<h2>КАК МЫ ОСУЩЕСТВЛЯЕМ КУЗОВНОЙ РЕМОНТ</h2>
+			<div class="remont_content">
+				<div class="remont_item">
+					<b>1</b>
+					<h3>После обращения в наш сервис специалист фиксирует Вашу заявку в базе, а также задает дополнительные вопросы для прояснения задачи.</h3>
+				</div>
+				<div class="remont_item">
+					<b>2</b>
+					<h3>Мы проводим осмотр авто с использованием оборудования (по необходимости).</h3>
+				</div>
+				<div class="remont_item">
+					<b>3</b>
+					<h3>Составление рабочей сметы. Ремонт автомобиля.</h3>
+				</div>
+				<div class="remont_item">
+					<b>4</b>
+					<h3>Конечная проверка. Сдача клиенту.</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="kuzov">
+		<div class="wrapper">
+			<h2>Кузовной ремонт в Санкт-Петербурге</h2>
+			<h3>Транспортное средство с течением времени теряет свой первоначальный вид. <br>
+				Появление царапин, ржавчины, микротрещин способствуют ухудшению внешнего вида авто. <br>
+				Для того, чтобы вернуть автомобилю эстетичный внешний вид, можно обратиться в наш центр. <br>
+				Даже если транспортное средство пострадало в аварии, наши специалисты вернут ему первоначальное состояние.
+			</h3>
+			<div class="kuzov_gray">
+				<img src="img/mark.png" alt="">
+				<h3>Ремонт кузова – достаточно сложная и затратная процедура. <br>
+					При эксплуатации любой из элементов кузова подвергается внешним воздействиям, а также коррозии. <br>
+					Для восстановления используют специализированную технику, <br>
+					которая восстанавливает геометрию с повышенной точностью,  <br>
+					предоставляет возможность удалить вмятины и качественно обработать необходимые места краской. <br>
+					Кузовной ремонт автомобилей в Санкт-Петербурге осуществляется на высоком уровне, <br>
+					к кому же предоставляется гарантия.
+				</h3>
+			</div>
+			<h4>Процедура проведения ремонта <br>
+				Существует несколько этапов:
+			</h4>
+			<ul>
+				<li>Оценивается состояние повреждения;</li>
+				<li>Выбирается технология ремонта, рассчитывается время и предварительная стоимость;</li>
+				<li>Поврежденные элементы демонтируются;</li>
+				<li>Элементы заменяются;</li>
+				<li>Осуществление рихтовки, сварочных работ;</li>
+				<li>Автомобиль подготавливается для покраски;</li>
+				<li>Покраска транспортного средства;</li>
+				<li>Устанавливаются дополнительные элементы;</li>
+				<li>Кузов автомобиля полируется;</li>
+				<li>Автомобиль подвергается антикоррозионной обработке.</li>
+			</ul>
+			<h5>Наши специалисты имеют высокую квалификацию и большой опыт. <br>
+				Они подберут подходящую технологию ремонта и выполнят все работы в короткий срок.
+			</h5>
+		</div>
+	</section>
+	<section class="mainInfo">
+		<div class="wrapper">
+			<h2>Виды кузовного ремонта</h2>
+			<h3>Транспортное средство может быть повреждено в разной степени. <br>
+				Случается, что можно устранить неисправность без удаления элемента и покраски. <br>
+				Ремонт может быть полным и локальным. <br>
+				Стоимость кузовного ремонта авто в СПб определяется в зависимости от вида ремонта.
+			</h3>
+			<h2>Локальный ремонт</h2>
+			<h3>
+				Восстанавливается определенный участок, иногда покраска не требуется. Процедура проводится тогда, <br>
+				когда повреждение небольшое – скол, вмятина, царапина. Элементы кузова не демонтируются, <br>
+				а восстановление занимает несколько часов. Поверхность вытягивается в месте деформации. <br>
+				При условии возникновения коррозии, следы устраняются. Затем поверхность грунтуется, <br>
+				подготавливается к покраске, затем окрашивается. <br>
+				Цвет краски Отправитьеделяется на предназначенном <br>
+				для этого оборудовании. Результат – идеально подобранный цвет, не отличающийся от оригинальной краски. <br>
+				Такая процедура имеет невысокую стоимость, поскольку количество работ небольшое, затрата времени минимальная, <br>
+				а материалы используются по минимуму.
+			</h3>
+			<h2>Полный ремонт</h2>
+			<h3>
+				Такая процедура предназначена для авто, состояние которых плачевно.  <br>
+				Полному ремонту подвергаются старые автомобили, которые не эксплуатировались несколько лет, <br>
+				подверглись коррозии, с механическими повреждениями ли те, которые сильно пострадали в ДТП. <br>
+				Заменяются некоторые элементы, происходит восстановление геометрии, зачем авто окрашивается.
+			</h3>
+			<h4>Высококвалифицированные специалисты занимаются:</h4>
+			<ol>
+				<li>Полной или частичной разборкой для того, что определить состояние;</li>
+				<li>Замером контрольных точек, что позволяет охарактеризовать деформацию;</li>
+				<li>Восстановлением точной геометрии на стапеле;</li>
+				<li>Рихтовкой;</li>
+				<li>Сваркой;</li>
+				<li>Антикоррозийной обработкой и покраской деталей.</li>
+			</ol>
+			<h4>Полный ремонт самый дорогостоящий, поскольку необходима замена деталей и требует большого количества работ.</h4>
+			<h2>Ремонт без покраски</h2>
+			<h3>
+				Обычная вмятина легко устраняется. Она может быть получена при неудачной парковке,  <br>
+				при неосторожности на скользкой дороге и т.п. В нашем центре возможен процесс устранения вмятин без покраски.  <br>
+				Специальный инструмент позволяет выровнять кузов, при этом лакокрасочное покрытие останется без повреждений. <br>
+				Такая процедура недорогая.
+			</h3>	
+		</div>
+	</section>
+	<section class="achiv">
+		<div class="wrapper">
+			<h2>ПРЕИМУЩЕСТВА НАШЕГО СЕРВИСА</h2>	
+			<div class="achiv_content">
+				<div class="achiv_item">
+					<img src="img/a1.png" alt="">
+					<h3> Профессиональное <br> оборудование</h3>
+					<p>Используем импортное оборудование для работы и проверенных поставщиков оригинальных запчастей.</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a2.png" alt="">
+					<h3>Услуги <br> сертифицированы </h3>
+					<p>Имеются нужные документы и допуск к работам.</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a3.png" alt="">
+					<h3> Стаж мастеров <br> более 8 лет</h3>
+					<p> Все мастера имеют большой опыт работы в организации. Каждые 3-6 месяцев проводим обучение у дилеров.</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a4.png" alt="">
+					<h3>Сеть сервисных центров </h3>
+					<p> У нас есть сервисы как на юге так и на севере города. Также мы готовы вызвать вам эвакуатор бесплатно.</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a5.png" alt="">
+					<h3> Обязательно соблюдаем <br> сроки по договору</h3>
+					<p>Работаем с проверенными поставщиками более 10 лет. Все процессы работы автоматизированы</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a6.png" alt="">
+					<h3> Стоимость </h3>
+					<p>Цена не меняется в процессе работы. Смета оговаривается заранее.</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a7.png" alt="">
+					<h3> Все марки авто </h3>
+					<p>Компания предоставляет развернутую смету по работам и запчастям (как оригинальным так и б/у).</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a8.png" alt="">
+					<h3>Гарантии </h3>
+					<p> На работы и на оригинальные запчасти - 1 год. На неоригинальные запасные части, приобретенные и установленные в нашем сервисе — от 2 мес.</p>
+				</div>
+				<div class="achiv_item">
+					<img src="img/a9.png" alt="">
+					<h3> Цены</h3>
+					<p> Дешевле на 30% чем у официального дилера.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="wrapper">
+			<h2>НАШИ КОНТАКТЫ</h2>
+			<div class="contacts_grid">
+				<div class="left">
+					<h3>ОСТАЛИСЬ ВОПРОСЫ?</h3> <br>
+					<a target="_blank" href="https://wa.me/79119226661?text=Здравствуйте!%20У%20меня%20возник%20вопрос%20по%20поводу%20ваших%20услуг">ЗАДАЙТЕ ИХ МАСТЕРУ ПО РЕМОНТУ</a>
+				</div>
+				<div class="right">
+					<h4>
+						г. Санкт-Петербург <br>
+						пр. Ю. Гагарина д. 1 <br><br>
+
+						8-921-998-18-88 <br>
+						Лабораторная, д. 14/59 <br> <br>
+
+						8-812-777-01-75
+					</h4>
+				</div>	
+			</div>
+		</div>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23778.753800731512!2d30.313649265251886!3d59.94579799823211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696316ad47e244d%3A0xba3d555ac7f032e7!2z0J_QtdGC0YDQvtC_0LDQstC70L7QstGB0LrQsNGPINC60YDQtdC_0L7RgdGC0Yw!5e0!3m2!1sru!2sru!4v1628951946183!5m2!1sru!2sru" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</section>
+	<footer>
+		<div class="wrapper">
+			<div class="footer_content">
+				<h2>
+					Copyright © ООО «Дельта-Сервис» <br>
+					Все права защищены
+				</h2>
+				<div class="footer_menu">
+					<a href="">КУЗОВНОЙ РЕМОНТ ПО СПБ</a>
+					<a href="">УСЛУГИ</a>
+					<a href="">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+				</div>
+			</div>
+		</div>	
+	</footer>
+	<script src="css/main.js" type="text/javascript"></script>
+</body>
+</html>
