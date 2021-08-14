@@ -7,21 +7,19 @@
 	<title>Автосервис</title>
 </head> 
 <body>
-	<header>
+	<header class="header">
 		<div class="wrapper">
 			<div class="header_content">
 				<div class="header_logo">
-					<img src="img/logo.png" alt="">
-					<h3>РЕМОНТ АВТО</h3>
+					<a href=""><img src="img/logo.png" alt=""></a>
 				</div>
 				<nav>
 					<ul>
-						<li><a href="">О компании</a></li>
-						<li><a href="">Услуги</a></li>
-						<li><a href="">Цены</a></li>
-						<li><a href="">Работы</a></li>
-						<li><a href="">Статьи</a></li>
-						<li><a href="">Контакты</a></li>
+						<li><a href="#about" class="js-scroll">О компании</a></li>
+						<li><a href="#serv"  class="js-scroll">Услуги</a></li>
+						<li><a href="#price" class="js-scroll">Цены</a></li>
+						<li><a href="#achiv" class="js-scroll">Наши преимущества</a></li>
+						<li><a href="#contact" class="js-scroll">Контакты</a></li>
 					</ul>
 				</nav>
 				<div class="header_geo">
@@ -51,6 +49,21 @@
 			<span class="arrow">&#9660;</span>
 			<span class="arrow">&#9660;</span>
 		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="wrapper">
+			<h2>О КОМПАНИИ</h2>
+			<p>
+				«Дельта-Сервис» — быстро развивающаяся компания, занимающаяся кузовным ремонтом автомобилей разных марок и производителей.
+				<br><br>
+				В компании работают высококвалифицированные специалисты, регулярно совершенствующие свои навыки при помощи тренингов и обучающих мастер-классов.
+				<br><br>
+				Автосервис оснащен современным оборудованием, отвечающим текущим требованиям, которое обновляется при появлении новых компьютерных разработок.
+				<br><br>
+				Доверив свой автомобиль нашим мастерам, вы можете быть уверены в качестве ремонтных работ, в быстрых сроках и гарантии результата.
+			</p>
+			<img src="img/about.png" alt="">
+		</div>	
 	</section>
 	<section class="category">
 		<div class="wrapper">
@@ -108,7 +121,7 @@
 		</div>
 	</section>
 
-	<section class="price">
+	<section id="price" class="price">
 		<div class="wrapper">
 			<h2>ЦЕНЫ НА КУЗОВНЫЕ РАБОТЫ</h2>
 			<div class="price_content">
@@ -405,7 +418,7 @@
 			</ul>
 		</div>
 	</section>
-	<section class="services">
+	<section id="serv" class="services">
 		<div class="blur"></div>
 		<div class="wrapper">
 			<div class="services_content">
@@ -597,7 +610,7 @@
 			</h3>	
 		</div>
 	</section>
-	<section class="achiv">
+	<section id="achiv" class="achiv">
 		<div class="wrapper">
 			<h2>ПРЕИМУЩЕСТВА НАШЕГО СЕРВИСА</h2>	
 			<div class="achiv_content">
@@ -649,7 +662,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="contacts">
+	<section id="contact" class="contacts">
 		<div class="wrapper">
 			<h2>НАШИ КОНТАКТЫ</h2>
 			<div class="contacts_grid">

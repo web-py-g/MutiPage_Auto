@@ -63,7 +63,7 @@ header{
 }
 .header_content nav{
 	width: 60%;
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .header_content nav ul{
@@ -83,15 +83,13 @@ header{
 	margin-bottom: 15px;
 	font-size: 0.9em;
 }
-.header_logo img{
-	height: 25px;
-	margin-bottom: 10px;
-	margin-top: 15px;
+.header_logo img{	
+	height: 90px;
 }
 .header_geo {
 	width: 20%;
 	color: #fff;
-	margin-top: 20px;
+	margin-top: 30px;
 	text-align: right;
 	padding-right: 50px;
 }
@@ -181,6 +179,26 @@ header{
 	top: 24px;
 }
 /*---- welcome end -----*/
+
+.about h2{
+	font-size: 42px;
+	padding-top: 30px;
+	font-weight: bold;
+}
+.about p{
+	width: 50%;
+	font-size: 16px;
+	line-height: 120%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	display: inline-block;
+}
+.about img{
+	width: 400px;
+	margin-top: 20px;
+	padding-bottom: 50px;
+	margin-left: 250px;
+}
 /*---- category start -----*/
 
 .category{
