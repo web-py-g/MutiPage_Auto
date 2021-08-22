@@ -420,9 +420,10 @@ header{
 /*---- photo start -----*/
 .photo{
 	padding-top: 40px;
-	background: url(../img/phone.png) no-repeat;
-	background-position: right;
-	background-size: contain;
+	background: url(../img/ph.png), url(../img/oval.png);
+	background-repeat: no-repeat;
+	background-position: right,  bottom 0px right 350px;
+	background-size: contain, 300px;
 	z-index: -2;
 	position: relative;
 }
@@ -499,18 +500,20 @@ header{
 	color: #fff;
 	right: 535px;
 	top: 170px;
-	font-size: 13px;
+	font-size: 12px;
 }
 #s1{
-	right: 460px;
-	top: 140px;
+	right: 440px;
+	top: 110px;
 }
 #s2{
-	top: 280px;
-	right: 550px;
+	top: 230px;
+	right: 545px;
 }
 #s3{
-	top: 450px;
+	top: 400px;
+	right: 545px;
+
 }
 
 /*---- photo end -----*/
