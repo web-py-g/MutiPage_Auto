@@ -20,7 +20,6 @@ function dops(){
 		flag = 0;
 		for (var i = dop_content_elems.length - 1; i >= 0; i--) {
 			if (dop_content_elems[i].classList.contains('open')){
-				// console.log(dop_content_elems[i]);
 				let funcUser = dops1.bind(dop_content_elems[i]);
 				funcUser();
 			}
@@ -55,14 +54,31 @@ function dops1(){
 		var ull = this.querySelector('.pricecontent__item_main');
 		var li = ull.firstElementChild.clientHeight;
 		var lis = ull.children.length;
-		if (li < 26){
-			li += 10;
+		if (window.innerWidth < 400){
+			if (li < 26){
+				li += 10;
+			}
+			else if (li > 100){
+				li = 60;
+			}
+			else if (li > 60){
+				li = 40;
+			}
+			if (lis > 8) {
+				li -= 11;
+			}
 		}
-		else if (li > 100){
-			li = 65;
-		}
-		else if (li > 50){
-			li = 50;
+		else{
+
+			if (li < 26){
+				li += 15;
+			}
+			else if (li > 100){
+				li = 65;
+			}
+			else if (li > 50){
+				li = 60;
+			}
 		}
 
 		ull.style.paddingBottom = ((li + 10) * lis) + 'px';
@@ -110,3 +126,20 @@ function dops1(){
     };
     scrollTo();
 }());
+
+
+
+const form = document.querySelector('.form');
+const number = '79119226661';
+function sendToWhatsapp(text, phone) {
+ 
+  text = encodeURIComponent(text);
+  let url = `https://wa.me/79119226661?text=Здравствуйте,%20меня%20зовут%20${text},%20я%20хочу%20оставить%20заявку%20на%20бесплатную%20консультацию.&source=&data=`;
+  window.open(url);
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const text = e.currentTarget.querySelector('input').value;
+  sendToWhatsapp(text, number);
+});
