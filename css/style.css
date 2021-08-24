@@ -976,11 +976,14 @@ footer{
 	margin-left: 20px;
 	margin-bottom: 15px;
 }
+.rem_scretch ol{
+	margin-bottom: 30px;
+}
 .rem_scretch .blur{
 	height: 135vh;
 }
 .rem_scretch a{
-	margin: 0 auto;
+	display: inline-block;
 	background: linear-gradient(180deg, rgba(251, 0, 0, 1) 0%, rgba(70, 70, 70, 1) 247.6%);
 	padding: 10px 60px;
 	font-size: 16px;
@@ -1209,6 +1212,9 @@ footer{
 
 
 @media screen and (max-width: 1200px) {
+	.cars_rem_content h1, .rem_scretch h1{
+		font-size: 36px;
+	}
 	.welcome_content{
 		left: 50px;
 		max-width: 70%;
@@ -1241,8 +1247,14 @@ footer{
 	.contacts_grid .left a{
 		font-size: 20px;
 	}
+	.polishing .blur{
+		height: 180vh;
+	}
 }
 @media screen and (max-width: 1090px) {
+	.color_main h3{
+		font-size: 30px;
+	}
 	.photo{
 		background-position: bottom 0 right -150px, bottom 0px right 100px;
     	background-size: 500px, 300px;
@@ -1294,6 +1306,49 @@ footer{
 	}
 	.contacts_grid .left a{
 		font-size: 17px;
+	}
+		.color_main h1{
+		font-size: 30px;
+	}
+	.color_main h2,.color_main h4, .color_main li, .color_main h5{
+		font-size: 16px;
+	}
+	.color_main a{
+		font-size: 14px;
+		padding: 10px 40px;
+	}
+	.color_main h5,.color_main h4{
+		width: 90%;
+	}
+	.rem_main h2{
+		width: 90%;
+	}
+	.rem_scretch h1{
+		font-size: 40px;
+	}
+	.rem_scretch h2, .kuzov_gray h3{
+		font-size: 15px;
+	}
+	.rem_scretch .blur{
+		height: 160vh;
+	}
+	.rem_scretch .kuzov_gray{
+		padding: 20px;
+	}
+	.kuzov_gray img{
+		margin-left: 10px;
+	}
+	.kuzov_gray h3{
+		margin-left: 10px;
+	}
+	.polishing h3{
+		font-size: 30px;
+	}
+	.polishing .blur{
+		height: 200vh;
+	}
+	.color_local .blur{
+		height: 170vh;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -1372,9 +1427,24 @@ footer{
 	.right{
 		margin-right: 0;
 	}
+	.cars_rem_content img{
+		width: 350px;
+	}
 }
 @media screen and (max-width: 800px) {
-
+	.cars_rem_content h1{
+		font-size: 30px;
+	}
+	.cars_rem_content h3{
+		width: 70%;
+	}
+	.cars_rem_content img{
+		width: 300px;
+	}
+	.cars_rem_content a{
+		padding: 10px 40px;
+		font-size: 15px;
+	}
 	.welcome_content h1{
 		font-size: 36px;
 		line-height: 140%;
@@ -1530,6 +1600,30 @@ footer{
 	.footer_menu a{
 		font-size: 0.8em;
 	}
+	.color_main h1,.color_main h3{
+		font-size: 28px;
+	}
+	.color_main h2, .color_main h4, .color_main li, .color_main h5{
+		font-size: 14px;
+	}
+	.color_main a, .rem_scretch a{
+		font-size: 12px;
+	}
+	.rem_main .blur{
+		height: 280vh;
+	}
+	.polishing h3{
+		font-size: 24px;
+	}
+	.polishing h2, .polishing h4, .polishing li{
+		font-size: 14px;
+	}
+	.rem_scretch a{
+		margin-top: 30px;
+	}
+	.rem_scretch .blur{
+		height: 180vh;
+	}
 }
 @media screen and (max-width: 700px) {
 	.profi_item{
@@ -1586,6 +1680,17 @@ footer{
 		padding: 10px 25px;
 		font-size: 12px;
 	}
+	.rem_main .blur{
+		height: 320vh;
+	}
+	.polishing .blur{
+		height: 200vh;
+	}
+	.rem_scretch .blur{
+		height: 190vh;
+	}
+
+
 }
 @media screen and (max-width: 610px) {
 	.header .wrapper{
@@ -1750,8 +1855,67 @@ footer{
 		font-size: 11px;
 		line-height: 120%;
 	}
+	.cars_rem_content h1{
+		font-size: 22px;
+	}
+	.cars_rem_content h3{
+		font-size: 13px;
+	}
+	.cars_rem_content h2{
+		font-size: 16px;
+	}
+	.cars_rem_content img{
+		width: 250px;
+	}
+	.cars_rem_content ol{
+		font-size: 13px;
+	}
+	.cars_rem_content a{
+		font-size: 12px;
+		padding: 10px 20px;
+	}
+	.color_main h1, .color_main h3{
+		font-size: 20px;
+	}
+	.color_main h2, .color_main h4, .color_main li, .color_main h5{
+		font-size: 12px;
+	}
+	.color_main .welcome_content{
+		left: 20px;
+	}
+	.color_main a, .rem_scretch a{
+		font-size: 10px;
+		padding: 10px 20px;
+	}
+	.rem_main .blur{
+		height: 320vh;
+	}
+	.polishing .blur{
+		height: 240vh;
+	}
+	.polishing h3{
+		font-size: 20px;
+	}
+	.polishing h2, .polishing h4, .polishing li, .rem_scretch h5, .rem_scretch h2, .kuzov_gray h3, .rem_scretch ol{
+		font-size: 12px;
+	}
+	.rem_scretch a{
+		margin-top: 0;
+	}
+	.rem_scretch .blur{
+		height: 200vh;
+	}
+	.color_local .blur{
+		height: 180vh;
+	}
 }
 @media screen and (max-width: 400px) {
+	.rem_main .blur{
+		height: 300vh;
+	}
+	.polishing .blur{
+		height: 250vh;
+	}
 	.header_content{
 		font-size: 6px;
 	}.welcome_content h1{
@@ -1804,8 +1968,42 @@ footer{
 	.contacts_grid .right h4{
 		font-size: 10px;
 	}
+	.cars_rem_content img{
+		width: 200px;
+	}
+	.color_main h1, .color_main h3{
+		font-size: 16px;
+	}
+	.color_main h2, .color_main h4, .color_main li, .color_main h5, .polishing h2, .polishing h4, .polishing li, .rem_scretch h2, .kuzov_gray h3, .rem_scretch h5{
+		font-size: 11px;
+	}
+	.polishing h3{
+		font-size: 15px;
+	}
 }
 @media screen and (max-width: 360px) {
+	.rem_scretch h4{
+		font-size: 13px;
+	}
+	.polishing h2, .polishing h4, .polishing li, .rem_scretch h5, .rem_scretch h2, .kuzov_gray h3, .rem_scretch ol{
+		font-size: 10px;
+	}
+	.rem_main .blur{
+		height: 320vh;
+	}
+	.cars_rem_content a{
+		font-size: 10px;
+		padding: 7px 14px;
+	}
+	.cars_rem{
+		margin-top: 75px;
+	}
+	.cars_rem_content h1{
+		font-size: 18px;
+	}
+	.cars_rem_content h3, .cars_rem_content ol{
+		font-size: 12px;
+	}
 	.about h2, .price h2, .profi h2, .photo h2, .contacts h2, .dang h2, .remont h2, .achiv h2, .mainInfo h2, .kuzov h2, .services_content h2{
 		font-size: 14px;
 	}
